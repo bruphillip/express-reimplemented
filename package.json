@@ -1,0 +1,17 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec vite-node src/index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "path-to-regexp": "^8.2.0",
+    "vite-node": "^2.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
